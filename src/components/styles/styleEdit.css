@@ -1,0 +1,99 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+
+.small-font-input {
+  font-size: 9px; /* Змініть розмір шрифта за потребою */
+}
+
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 8px 0;
+}
+
+.pagination li {
+  display: inline;
+}
+
+.pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+.modal-content {
+  background-color: white;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.center-link {
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+}

@@ -1,0 +1,51 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #dfddddda;  }
+  
+  table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+ 
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #cdcdcd;}
+  
+  table th, tfoot td {
+    padding-top: 12px;
+    border: 1px solid #ddd;
+    padding-bottom: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .checkbox-grid {
+    display: grid;
+    font-size: 9px;
+    grid-template-columns: repeat(4, 1fr); /* Змініть кількість стовпців за необхідністю */
+    gap: 10px; /* Змініть відстань між елементами */
+  }
+  
+  .checkbox-container {
+    display: flex;
+    font-size: 9px;
+    align-items: center;
+  }
+
+  .select-container {
+    display: flex;
+    gap: 20px; /* Відступ між елементами */
+  }
+  
+  .select-group {
+    width: 300px; /* Задайте бажану ширину */
+  }
+  
+  

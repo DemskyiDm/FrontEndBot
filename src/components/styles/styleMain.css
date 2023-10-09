@@ -1,0 +1,100 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+body {
+  background-color: #F1E9DA;
+}
+body .container {
+  width: 850px;
+  margin: 70px auto 0px auto;
+  text-align: center;
+}
+body .container h1 {
+  font-family: 'Droid Serif', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+body .container h1 span {
+  font-weight: 700;
+  font-style: italic;
+  color: #D90368;
+  border-bottom: 2px dashed currentColor;
+}
+body .container .button-effect {
+  padding: 30px 0px;
+}
+body .container .button-effect h2 {
+  font-family: 'Droid Serif', serif;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+body .container .button-effect button {
+  margin-right: 17px;
+}
+body .container .button-effect button:nth-child(1) {
+  background-color: #541388;
+}
+body .container .button-effect button:nth-child(2) {
+  background-color: #D90368;
+}
+body .container .button-effect button:nth-child(3) {
+  background-color: #104547;
+}
+
+body .container .button-effect button:last-child {
+  margin-right: 0px;
+}
+
+.effect {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+ 
+  font-family: 'Roboto', sans-serif;
+  /* put your font-family */
+  font-size: 18px;
+  padding: 20px 0px;
+  width: 200px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* effect-3 styles */
+.effect.effect-3 {
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+.effect.effect-3:before {
+  content: "\f178";
+  font-family: FontAwesome;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 30px;
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+.effect.effect-3:hover {
+  text-indent: -9999px;
+}
+.effect.effect-3:hover:before {
+  top: 0;
+  text-indent: 0;
+}
